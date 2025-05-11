@@ -4,9 +4,16 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
-        <script src="javascript.js"></script>
+        <script defer src="javascript.js"></script>
     </head>
     <body>
-        <p>Psst! Open up the dev console to see the results 👀</p>
+        <button id="rock">Rock ✊</button>
+        <button id="paper">Paper 🖐</button>
+        <button id="scissors">Scissors ✌</button>
+        <button id="reset">Reset</button>
+
+        <p>Your score: <span id="playerScore">0</span></p>
+        <p>Computer's score: <span id="computerScore">0</span></p>
+        <div id="gameLog"></div>
     </body>
 </html>
